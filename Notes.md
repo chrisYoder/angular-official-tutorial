@@ -108,6 +108,17 @@
         - should be in the followin gformat: `{ path: 'products/:productId', component: ComponentName}`
       - routerLink
         - used in a component file to link a path to the RouterModule
+- Managing data
+- Services
+  - a service is an instance of a class that can be made available to any part of your application using Angulars dependency injection system
+    - dependency injection system: 
+      - a coding pattern in which a class asks for dependencies from external sources rather than creating them itself
+- HTTPClient
+  -
+
+
+
+
       
 
     
