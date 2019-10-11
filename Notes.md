@@ -102,6 +102,12 @@
               - `<app-item-output (newItemEvent)="addItem($event)"></app-item-output>`
               - this is where the data handoff happens
 - Routing
+  - Registering Routes
+    - In src/app/app.module.ts: 
+      - In the imports array add the path object to the RouterModule.forRoot([])
+        - should be in the followin gformat: `{ path: 'products/:productId', component: ComponentName}`
+      - routerLink
+        - used in a component file to link a path to the RouterModule
       
 
     
